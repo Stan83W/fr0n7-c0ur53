@@ -86,17 +86,20 @@ a:hover {
   margin: 5rem 0;
 }
 .invert {
-  animation: lsd 20s infinite alternate ease;
-  -webkit-webkit-animation: lsd 20s infinite alternate ease;
-  -moz-webkit-animation: lsd 20s infinite alternate ease;
-  -ms-webkit-animation: lsd 20s infinite alternate ease;
-  -o-webkit-animation: lsd 20s infinite alternate ease;
-  webkit-animation: lsd 20s infinite alternate ease;
+  animation: lsd 15s infinite alternate ease;
+  -webkit-webkit-animation: lsd 15s infinite alternate ease;
+  -moz-webkit-animation: lsd 15s infinite alternate ease;
+  -ms-webkit-animation: lsd 15s infinite alternate ease;
+  -o-webkit-animation: lsd 15s infinite alternate ease;
+  webkit-animation: lsd 15s infinite alternate ease;
 }
 .invert>img {
-  filter: invert(0.8) saturate(5) hue-rotate(140deg);
+  filter: invert(1) saturate(0);
 }
-
+#symbol {
+  font-size: 20rem;
+  margin: 0;
+}
 ::selection { background: #f0f; color: #f0f; text-shadow: 0.015em 0.015em 0.05em rgba(0,0,0,0.3);}
 
 
