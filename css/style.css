@@ -15,16 +15,29 @@ body {
   letter-spacing: .03em;
   font-family: 'Spectral', serif;
 }
-h1 {
+h1, strong {
   font-family: "Morganite Black", sans-serif;
   text-transform: uppercase;
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
+strong {
+  position: relative;
+  top: .08em;
+  font-size: 6rem;
+  letter-spacing: 0.3rem;
+}
 h2 {
   font-size: 4.5rem;
   line-height: 130%;
   font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
 }
 @keyframes lsd {
     0% {
