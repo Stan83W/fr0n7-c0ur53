@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Morganite Black";
-  scr: url("fonts/MB.ttf");
+  font-family: 'Morganite Black';
+  src: url('fonts/MB.ttf');
 }
 
 html, body {
@@ -9,5 +9,5 @@ html, body {
 }
 
 h1 {
-  font-family: "Morganite Black";
+  font-family: "Morganite Black", sans-serif;
 }
