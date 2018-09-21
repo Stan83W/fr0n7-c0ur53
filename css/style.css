@@ -27,5 +27,13 @@ h1 {
 }
 #intro .inner {
   display: block;
-
+}
+.text-center {
+  text-align: center;
+}
+.contained {
+  padding: 0 5rem;
+}
+.box-row {
+  margin: 5rem 0;
 }
