@@ -22,7 +22,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
 }
 h2 {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   line-height: 130%;
   font-weight: 300;
 }
@@ -58,9 +58,7 @@ h2 {
 }
 
 #intro h1 {
-  font-size: 39rem;
-  position: relative;
-  top: -1.5rem;
+  font-size: 26rem;
 }
 #intro .inner {
   display: block;
@@ -75,5 +73,18 @@ h2 {
   margin: 5rem 0;
 }
 .invert {
-  animation: lsd 10s infinite alternate ease;
+  animation: lsd 20s infinite alternate ease;
+  -webkit-webkit-animation: lsd 20s infinite alternate ease;
+  -moz-webkit-animation: lsd 20s infinite alternate ease;
+  -ms-webkit-animation: lsd 20s infinite alternate ease;
+  -o-webkit-animation: lsd 20s infinite alternate ease;
+  webkit-animation: lsd 20s infinite alternate ease;
 }
+.invert>img {
+  filter: invert(0.8) saturate(5) hue-rotate(140deg);
+}
+
+
+
+
+
