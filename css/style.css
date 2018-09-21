@@ -37,7 +37,7 @@ a {
   color: black;
 }
 a:hover {
-  color: white;
+  color: rgb(250, 250, 250);
 }
 @keyframes lsd {
     0% {
@@ -97,6 +97,7 @@ a:hover {
   filter: invert(0.8) saturate(5) hue-rotate(140deg);
 }
 
+::selection { background: #f0f; color: #f0f; text-shadow: 0.015em 0.015em 0.05em rgba(0,0,0,0.3);}
 
 
 
