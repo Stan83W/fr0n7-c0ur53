@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Morganite Black";
+  scr: url("fonts/MB.ttf");
+}
+
+html, body {
+  background-color: rgb(250, 250, 250);
+  color: black;
+}
+
+h1 {
+  font-family: "Morganite Black";
+}
