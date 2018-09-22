@@ -149,6 +149,9 @@ footer h3 {
 .flex1 {
   flex: 1;
 }
+.flex1 a {
+  text-decoration: line-through;
+}
 
 
 ::selection {
