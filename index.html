@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Spectral:300,400,500,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -50,6 +51,35 @@
       </h2>
     </div>
 
+    <script>
+      $(document).ready(function() {
+        var menu = $('.socials');
+        var stick = false;
+        menu.after(menu.clone().addClass('clone sticky fixed hide'));
+        var stickyNav = function() {
+            var stickyNavTop = menu.offset().top;
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > stickyNavTop) {
+                if (!stick) {
+                    menu.css('opacity', 0);
+                    $('.socials.clone').removeClass('hide');
+                    stick = true;
+                }
+            } else {
+                menu.css('opacity', 1);
+                $('.socials.clone').addClass('hide');
+                stick = false;
+            }
+        };
+        stickyNav();
+        $(window).scroll(function() {
+            stickyNav();
+        });
+        $(window).resize(function() {
+            stickyNav();
+        });
+      });
+    </script>
 
   </body>
 
