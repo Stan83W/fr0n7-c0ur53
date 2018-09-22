@@ -39,6 +39,9 @@ a {
 a:hover {
   color: rgb(250, 250, 250);
 }
+ul {
+  padding: 0;
+}
 @keyframes lsd {
     0% {
         -webkit-transform: scaleY(1);
@@ -100,8 +103,26 @@ a:hover {
   font-size: 20rem;
   margin: 0;
 }
-::selection { background: #f0f; color: #f0f; text-shadow: 0.015em 0.015em 0.05em rgba(0,0,0,0.3);}
+.inline-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.socials li {
+  list-style: none;
+  padding: 0 1rem;
+}
 
+
+::selection {
+  background: #f0f;
+  color: #f0f;
+  text-shadow: 0.015em 0.015em 0.05em rgba(0,0,0,0.3);
+}
+::-moz-selection {
+  background: #f0f;
+  color: #f0f;
+  text-shadow: 0.015em 0.015em 0.05em rgba(0,0,0,0.3);
+}
 
 
 
