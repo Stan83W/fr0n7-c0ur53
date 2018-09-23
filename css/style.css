@@ -15,14 +15,15 @@ body {
   letter-spacing: .03em;
   font-family: 'Spectral', serif;
   margin: 0;
+  overflow-x: hidden;
 }
 h1, strong {
   font-family: "Morganite Black", sans-serif;
   margin: 0;
-  -webkit-font-smoothing: antialiased;
 }
 h1, h3, strong {
   text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
 }
 strong {
   position: relative;
@@ -34,6 +35,7 @@ h2 {
   font-size: 4.5rem;
   line-height: 130%;
   font-weight: 300;
+  -webkit-font-smoothing: antialiased;
 }
 h3 {
   font-family: "Morganite Black", sans-serif;
@@ -104,7 +106,7 @@ footer p{
 }
 .symbol {
   width: 8rem;
-  animation: rotate 7s infinite;
+  animation: rotate 5s infinite;
 }
 #intro h1 {
   font-size: 26rem;
