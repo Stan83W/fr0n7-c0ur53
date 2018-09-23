@@ -96,7 +96,16 @@ footer p{
         transform: scale(1);
     }
 }
-
+@keyframes rotate {
+  0% { transform: rotate(0deg) }
+  33% { transform: rotate(0deg) }
+  66% { transform: rotate(180deg) }
+  100% { transform: rotate(180deg) }
+}
+.symbol {
+  width: 8rem;
+  animation: rotate 7s infinite;
+}
 #intro h1 {
   font-size: 26rem;
 }
