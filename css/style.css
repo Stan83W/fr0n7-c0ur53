@@ -37,3 +37,6 @@ h1 {
 .box-row {
   margin: 5rem 0;
 }
+footer h3 {
+  font-weight: normal;
+}
