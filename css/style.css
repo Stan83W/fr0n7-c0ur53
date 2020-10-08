@@ -181,6 +181,8 @@ footer p{
   color: #f0f;
   text-shadow: 0.015em 0.015em 0.05em rgba(0,0,0,0.3);
 }
-
+footer h3 {
+  font-weight: normal;
+}
 
 
